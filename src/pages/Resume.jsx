@@ -1,6 +1,8 @@
 const Resume = () => {
   return (
-    <h1>Resume</h1>
+    <>
+      <a href="/James Hudson ATS Resume - Portfolio.pdf" download>Download Resume</a>
+    </>
   )
 }
 
