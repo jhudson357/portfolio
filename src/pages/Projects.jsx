@@ -1,16 +1,16 @@
 import {projects} from '../data/project.js'
+import ProjectList from '../components/ProjectList'
 
 const Projects = () => {
   return (
     <>
       <h1>Projects</h1>
-      <ul>
         {projects.map(project => 
-          <li key={project.title}>
-            {project.title}
-          </li>
+          <ProjectList
+            key={project.repositoryLink}
+            project={project}
+          />
         )}
-      </ul>
     </>
   )
 }
