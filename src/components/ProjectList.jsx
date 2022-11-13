@@ -1,4 +1,4 @@
-import ProjectPreview from "./ProjectPreview"
+import ProjectPreview from "./ProjectPreview/ProjectPreview"
 
 const ProjectList = ({project}) => {
   return (
@@ -6,7 +6,6 @@ const ProjectList = ({project}) => {
         <ProjectPreview 
           project={project}
         />
-      <p>{project.description}</p>
     </div>
   )
 }

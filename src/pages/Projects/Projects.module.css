@@ -1,0 +1,18 @@
+.projectsContainer {
+  display: flex;
+  min-height: 100vh;
+  padding: 14px 60px;
+  flex-direction: column;
+  background-color: var(--primary);
+}
+
+.projectsContainer > h1 {
+  color: var(--secondary);
+  font-size: 50px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -72,6 +72,7 @@ button::before {
 
 button:hover {
   color: var(--primary);
+  cursor: pointer;
 }
 
 button:hover::before {
