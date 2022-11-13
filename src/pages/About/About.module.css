@@ -1,0 +1,79 @@
+.aboutContainer {
+  display: flex;
+  height: 100vh;
+  padding: 14px 60px;
+  flex-direction: column;
+}
+
+.topHalf {
+  display: flex;
+}
+
+/* .bottomHalf {
+  background-color: red;
+} */
+
+.about {
+  width: 60%;
+}
+
+.header > h1 {
+  color: var(--primary);
+  font-size: 50px;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 5px;
+  padding: 20px 40px;
+  background-color: var(--secondary);
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 470px; */
+}
+
+.technologies > h2 {
+  color: var(--primary);
+}
+
+button {
+  padding: 15px 25px;
+  border: unset;
+  border-radius: 5px;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 5px;
+  background-color: var(--secondary);
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+}
+
+button:hover {
+  color: var(--primary);
+}
+
+button:hover::before {
+  width: 100%;
+}
