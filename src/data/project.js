@@ -1,10 +1,10 @@
 let projects = [
   {
-    title: 'Wordle',
-    description: 'A recreation of the hit game, Wordle. Created using JavaScript, HTML, and CSS.',
+    title: 'Fit',
+    description: 'A MERN-stack application where users are able to track their favorite exercises and search recipes pulled from the Edamam API.',
     image: '',
-    repositoryLink: 'https://github.com/jhudson357/wordle-unit-1-project',
-    deploymentLink: 'https://james-hudson-wordle.netlify.app/'
+    repositoryLink: 'https://github.com/chrsteffen1/Fit-app-front-end',
+    deploymentLink: 'https://fit-planner.netlify.app/'
   },
   {
     title: 'Destinations',
@@ -14,11 +14,11 @@ let projects = [
     deploymentLink: 'https://destinations.fly.dev/'
   },
   {
-    title: 'Fit',
-    description: 'A MERN-stack application where users are able to track their favorite exercises and search recipes pulled from the Edamam API.',
+    title: 'Wordle',
+    description: 'A recreation of the hit game, Wordle. Created using JavaScript, HTML, and CSS.',
     image: '',
-    repositoryLink: 'https://github.com/chrsteffen1/Fit-app-front-end',
-    deploymentLink: 'https://fit-planner.netlify.app/'
+    repositoryLink: 'https://github.com/jhudson357/wordle-unit-1-project',
+    deploymentLink: 'https://james-hudson-wordle.netlify.app/'
   },
   // {
     // title: 'F1 Collector',

@@ -1,0 +1,36 @@
+.homeContainer {
+  display: flex;
+  height: 100vh;
+}
+
+.text {
+  background-color: #02674F;
+  width: 70%;
+  padding: 14px 60px;
+}
+
+.text > h1 {
+  color: #CCF381;
+  font-size: 50px;
+}
+
+.text > p {
+  color: white;
+}
+
+.profile {
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  background: #CCF381;
+  width: 30%;
+  padding-top: 15px;
+  
+}
+
+.profile > img {
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0px 1px #02674F;
+  margin-top: 41.5px;
+}
