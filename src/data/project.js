@@ -1,5 +1,20 @@
 let projects = [
   {
+    title: 'F1 Collector',
+    description: 'A Python and Django collector app where users can collect their favorite F1 teams, drivers, and team positions.',
+    image: '../../project-screenshots/f1-collector-team-details.png',
+    logo: '../../project-logos/f1collector-logo.svg',
+    repositoryLink: 'https://github.com/jhudson357/f1-collector-lab',
+    deploymentLink: 'https://jhudson-f1-collector.herokuapp.com/',
+    technologies: [
+      'Python | Django',
+      'HTML',
+      'CSS',
+      'Dockerfile',
+      'Figma'
+    ]
+  },
+  {
     title: 'Fit',
     description: 'A MERN-stack application where users are able to track their favorite exercises and search recipes pulled from the Edamam API.',
     image: '../../project-screenshots/mealdetails-fit.png',
@@ -54,15 +69,7 @@ let projects = [
       'Google Fonts',
       'Figma'
     ]
-  },
-  // {
-    // title: 'F1 Collector',
-  //   description: 'A Python and Django collector app where users can collect their favorite F1 teams, drivers, and team positions.',
-  //   image: '',
-  //   logo: '',
-  //   repositoryLink: 'https://github.com/jhudson357/f1-collector-lab',
-  //   deploymentLink: ''
-  // }
+  }
 ]
 
 export {
