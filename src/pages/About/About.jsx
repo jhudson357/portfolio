@@ -24,7 +24,7 @@ const About = () => {
           <h2>Technologies</h2>
           <ul>
             {technologies.map(technology => 
-              <li className={technology}>
+              <li key={technology}>
                 {technology}
               </li>
             )}
