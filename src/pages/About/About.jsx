@@ -16,7 +16,7 @@ const About = () => {
           </div>
           <a href="/projects">
             <button className={styles.button}>
-                SEE MY WORK
+                See My Work
             </button>
           </a>
         </div>

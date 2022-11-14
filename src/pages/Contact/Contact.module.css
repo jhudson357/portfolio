@@ -1,0 +1,52 @@
+.contactContainer {
+  display: flex;
+  min-height: 100vh;
+  /* background-color: #e8e8e8; */
+  background-color: var(--primary);
+  background-image: url("../../../public/jamesHudson-pattern-light-green.svg");
+  background-repeat: repeat;
+  padding: 30px 60px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contactContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5px;
+  width: auto;
+  flex-direction: column;
+  padding: 14px 60px 30px;
+}
+
+.contactHeader {
+  text-align: center;
+}
+
+.contactHeader > h1 {
+  color: var(--primary);
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.contactHeader > p {
+  margin-top: 10px;
+}
+
+.emailLink {
+  font-weight: 600;
+  font-size: larger;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.socialIcon {
+  width: 50px;
+  margin: 0 20px;
+}
