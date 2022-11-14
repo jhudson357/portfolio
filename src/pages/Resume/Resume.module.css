@@ -1,0 +1,13 @@
+.resumeContainer {
+  display: flex;
+  min-height: 100vh;
+  padding: 30px 60px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.link {
+  margin-bottom: 30px;
+  font-size: larger;
+}
