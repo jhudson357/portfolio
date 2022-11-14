@@ -1,6 +1,6 @@
 .aboutContainer {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   padding: 14px 60px;
   flex-direction: column;
 }

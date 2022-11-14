@@ -15,6 +15,7 @@ const ProjectDetails = () => {
         
         <div className={styles.projectHeader}>
           <h1>{project.title}</h1>
+          <a href='/projects'>All Projects</a>
         </div>
 
         <p>
