@@ -16,3 +16,20 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+@media only screen and (max-width: 768px) {
+  .projectsContainer {
+    padding: 14px 40px;
+  }
+  
+  .projectsContainer > h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .projects {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}

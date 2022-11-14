@@ -56,5 +56,6 @@ a {
   .container li {
     margin: 0;
     padding: 10px 10px;
+    font-weight: 600;
   }
 }
