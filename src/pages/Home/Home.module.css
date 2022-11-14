@@ -34,3 +34,30 @@
   box-shadow: 10px 10px 0px 1px var(--primary);
   margin-top: 41.5px;
 }
+
+@media only screen and (max-width: 768px) {
+  .homeContainer {
+    flex-direction: column;
+  }
+
+  .text {
+    background-color: var(--primary);
+    width: 100%;
+    padding: 14px 40px;
+  }
+
+  .text > h1 {
+    color: var(--secondary);
+    font-size: 40px;
+  }
+
+  .profile {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .profile > img {
+    margin: 40px 0;
+  }
+}
