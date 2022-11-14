@@ -14,7 +14,7 @@ const ProjectDetails = () => {
       <div className={styles.content}>
         
         <div className={styles.projectHeader}>
-          <h1>{project.title}</h1>
+          <h1>{project.title}.</h1>
           <a href='/projects'>All Projects</a>
         </div>
 
@@ -28,7 +28,7 @@ const ProjectDetails = () => {
         </a>
 
         <div className={styles.technologiesContainer}>
-          <h3>Technologies Used</h3>
+          <h3>Technologies Used.</h3>
           <div className={styles.technologies}>
             {project.technologies.map(technology => 
               <div key={technology} className={styles.technology}>
