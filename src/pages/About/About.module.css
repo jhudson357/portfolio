@@ -17,6 +17,10 @@
   width: 60%;
 }
 
+.paragraph {
+  padding-right: 18px;
+}
+
 .header > h1 {
   color: var(--primary);
   font-size: 50px;
