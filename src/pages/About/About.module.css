@@ -80,3 +80,43 @@ button:hover {
 button:hover::before {
   width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  .aboutContainer {
+    padding: 0;
+  }
+
+  .topHalf {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about {
+    padding: 14px 40px;
+    width: 100%;
+  }
+
+  .header > h1 {
+    color: var(--primary);
+    font-size: 40px;
+  }
+
+  .paragraph,
+  .button {
+    font-size: .9rem;
+  }
+  
+  .technologies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+    padding: 14px 40px;
+    background-color: var(--secondary);
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 470px; */
+    width: 100%;
+  }
+}

@@ -38,6 +38,7 @@
 @media only screen and (max-width: 768px) {
   .homeContainer {
     flex-direction: column;
+    min-height: auto;
   }
 
   .text {
@@ -49,6 +50,10 @@
   .text > h1 {
     color: var(--secondary);
     font-size: 40px;
+  }
+
+  .text > p {
+    font-size: .9rem;
   }
 
   .profile {

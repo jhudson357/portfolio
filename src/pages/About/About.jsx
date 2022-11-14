@@ -7,7 +7,7 @@ const About = () => {
       <div className={styles.topHalf}>
         <div className={styles.about}>
           <div className={styles.header}>
-            <h1>About</h1>
+            <h1>About.</h1>
           </div>
           <div className={styles.paragraph}>
             <p>
@@ -21,7 +21,7 @@ const About = () => {
           </a>
         </div>
         <div className={styles.technologies}>
-          <h2>Technologies</h2>
+          <h2>Technologies.</h2>
           <ul>
             {technologies.map(technology => 
               <li key={technology}>
@@ -31,7 +31,7 @@ const About = () => {
           </ul>
         </div>
       </div>
-      <div className={styles.bottomHalf}></div>
+      {/* <div className={styles.bottomHalf}></div> */}
     </section>
   )
 }
