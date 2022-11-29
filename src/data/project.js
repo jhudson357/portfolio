@@ -69,7 +69,23 @@ let projects = [
       'Google Fonts',
       'Figma'
     ]
-  }
+  },
+  {
+    title: 'Tic-Tac-Space',
+    description: 'A space-themed tic-tac-toe game. This was a great introduction to game-flow logic and JavaScript.',
+    image: '../../project-screenshots/tic-tac-space.png',
+    logo: '../../project-logos/tic-tac-space-logo.svg',
+    repositoryLink: 'https://github.com/jhudson357/ttt-weekend',
+    deploymentLink: 'https://tic-tac-space.netlify.app/',
+    technologies: [
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'Google Fonts',
+      'Bootstrap',
+      'Animate CSS'
+    ]
+  },
 ]
 
 export {
