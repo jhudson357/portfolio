@@ -1,0 +1,16 @@
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #6A5BBB;
+  background-color: #1C242A;
+}
+
+.footerContainer > p,
+.footerContainer > a {
+  color: white;
+}
+
+.footerContainer > a:hover {
+  color: var(--secondary)
+}

@@ -6,6 +6,7 @@ import Resume from './pages/Resume/Resume'
 import Projects from './pages/Projects/Projects'
 import NavBar from './components/NavBar/NavBar'
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/projects/:projectDetails' element={<ProjectDetails />} />
       </Routes>
+      <Footer />
     </>
   )
 }
